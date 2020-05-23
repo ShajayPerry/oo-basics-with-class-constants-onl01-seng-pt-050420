@@ -9,6 +9,8 @@ class Shoe
     BRANDS << brand
   end
   
+  BRANDS.size = [ ]
+  
   def initialize(brand)
     @brand = brand
     BRANDS.size << brand
